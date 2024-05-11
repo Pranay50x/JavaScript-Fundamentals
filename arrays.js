@@ -38,3 +38,15 @@ const spliceArray = blankArray.splice(1,4); //this includes both the ranges spec
 console.log('Spliced array is: ',spliceArray); 
 console.log('Orginal Array after splicing: ',blankArray); //the original array is being manipulated here 
 
+//
+const company = ['Apple','Google','Microsoft','Facebook'];
+const startups = ['Perplexity','Cognition Labs','Continue.dev','SunoAI']; 
+
+// company.push(startups); //method ends up clubbing one array in another one which is not feasible
+// const clubbed = company.concat(startups); //this works but have to use a thord variable to see actually whats happening 
+
+console.log([...company, ...startups]); //the spread method is used to concat 2 arrays widely used most popular
+
+//arrays combination
+const arr1 = [1,2,3,[4,5,6],[7,[8]]]; //the array has many arrays contained in it 
+console.log(arr1.flat(Infinity)); //the flat method allows us to combine all in a single array
