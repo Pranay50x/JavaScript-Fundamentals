@@ -50,3 +50,16 @@ console.log([...company, ...startups]); //the spread method is used to concat 2 
 //arrays combination
 const arr1 = [1,2,3,[4,5,6],[7,[8]]]; //the array has many arrays contained in it 
 console.log(arr1.flat(Infinity)); //the flat method allows us to combine all in a single array
+
+//few array methods
+console.log(Array.isArray('Pranay')); //returns false ofc cuz a str is not an Array
+console.log(Array.from('Pranay'));  //makes an array of character from the particular string
+console.log(Array.from({name: 'Pranay'})); //returns blank cuz Array.from method doesnt cover for objects 
+
+
+//making an array from a set of variables
+let name1 = 'Jack'
+let name2 = 'Hill'
+let name3= 'John'
+
+console.log(Array.of(name1,name2,name3));
