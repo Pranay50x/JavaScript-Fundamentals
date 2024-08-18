@@ -17,7 +17,6 @@ function addNumbers(num1,num2){
 const result = addNumbers(4,3);
 console.log(`Result: ${result}`); //undefined is returned since the function does not return anything.
 
-
 function loginUserMessage(username="default"){ //default value is set here
     if(username===undefined){
         console.log("Please enter a valid username");
