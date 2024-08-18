@@ -26,5 +26,4 @@ function loginUserMessage(username="default"){ //default value is set here
     }
     return `${username} just loggen in`; 
 }
-
 console.log(loginUserMessage());  // if u dont pass anything gonna return undefined 
