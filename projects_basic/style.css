@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: black;
+    color: white;
+}
+.navbar {
+    background-color: rgb(54, 51, 51);
+    color: white; 
+    margin: 0; 
+    position: fixed;
+    width: 100%;
+    border: 2px solid white;
+    height: 50px; /* Increased height */
+    text-align: center;
+    z-index: 10; /* Ensures navbar is on top */
+}
+
+.plinks {
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    align-items: center; /* Aligns links vertically */
+    height: 100%; /* Expands plinks height to navbar height */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 10px 0; /* Adds padding to make links easier to click */
+}
+
+a:hover{
+    color: cyan;
+    text-decoration: underline;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    color: white;
+    margin-top: 100px;
+    font-display: swap;
+}
+
+.heading{
+    display: flex;
+    position: relative;
+}
+
+.project-titles{
+    background-color: darkgray;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 3px solid darkgray;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
